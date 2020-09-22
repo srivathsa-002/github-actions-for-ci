@@ -6,7 +6,7 @@ on: [push]
 
 
 
-jobs:
+    needs: build
 
   build:
 
